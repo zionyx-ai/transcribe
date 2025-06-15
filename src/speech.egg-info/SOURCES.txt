@@ -1,0 +1,12 @@
+pyproject.toml
+src/speech/__init__.py
+src/speech/__main__.py
+src/speech/fastapi_app.py
+src/speech/router.py
+src/speech/transcriber.py
+src/speech.egg-info/PKG-INFO
+src/speech.egg-info/SOURCES.txt
+src/speech.egg-info/dependency_links.txt
+src/speech.egg-info/entry_points.txt
+src/speech.egg-info/requires.txt
+src/speech.egg-info/top_level.txt

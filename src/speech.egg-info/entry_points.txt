@@ -1,0 +1,2 @@
+[console_scripts]
+speech = speech.__main__:main

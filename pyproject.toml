@@ -1,0 +1,23 @@
+[project]
+name = "transcribe-service"
+version = "0.1.0"
+description = "Scriptora Transkription von Sprache zu Text"
+authors = [{ name = "Caleb Gyamfi" }]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "python-multipart",
+    "faster-whisper",
+    "torch",
+    "pydantic>=2.0",
+]
+
+[project.scripts]
+speech = "speech.__main__:main"
+
+
+[build-system]
+requires = ["uv", "setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
