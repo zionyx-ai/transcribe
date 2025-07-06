@@ -3,7 +3,7 @@ import uvicorn
 
 
 def main():
-    uvicorn.run("speech.fastapi_app:app", host="0.0.0.0", port=8001, reload=True)
+    uvicorn.run("transcribe.fastapi_app:app", host="0.0.0.0", port=5100, reload=True)
 
 
 if __name__ == "__main__":
